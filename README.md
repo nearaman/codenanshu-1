@@ -27,7 +27,7 @@ if you want to contribute in this project then please fork the [repo](https://gi
 * Custom 404 pages
 * Image optimization
 * Purge CSS + HTML Minify configured
-* Ready to deploy use
+* Deployed To Github Pages
 
 ## Contribute
 here i have some ways if you want to contribute in this project
