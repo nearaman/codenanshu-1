@@ -1,0 +1,126 @@
+<div class="flex items-center shadow-xl w-full">
+    <input class=" bg-newgrey rounded w-full py-4 px-6 text-gray-200 leading-tight" id="search-input" type="text" placeholder="Search" name="search">
+      <div class="p-4" oninput="searchForData(event)">
+        <button class="bg-neworange text-white rounded p-2 hover:bg-blue-400 focus:outline-none w-12 h-12 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <section id="search-results" class="search"></section>
+
+<script defer type="text/javascript">
+var fuse, searchInput, searchResults = null
+var documents = []
+const options = {
+    // isCaseSensitive: false,
+    // includeScore: false,
+    // shouldSort: true,
+    // includeMatches: false,
+    // findAllMatches: false,
+    // minMatchCharLength: 1,
+    // location: 0,
+    // threshold: 0.6,
+    // distance: 100,
+    // useExtendedSearch: false,
+    // ignoreLocation: false,
+    // ignoreFieldNorm: false,
+    keys: [
+      "title",
+      "description"
+    ]
+  };
+
+function renderSearchResults(results){
+
+    if (results.length > 0) {
+
+        // show max 10 results
+        if (results.length > 9){
+            results = results.slice(0,10)
+        }
+
+        // reset search results
+        searchResults.innerHTML = ''
+
+        // append results
+        results.forEach(result => {
+        
+            // create result item
+            var article = document.createElement('article')
+            article.innerHTML = 
+            `
+            <div class="searchitem">
+            <a href="${result.item.href}"><h3 class="title">${result.item.title}</h3></a>
+            <p class="searchdec">${result.item.description}</p>
+            <a href="${result.item.href}" class="text-newgreen">know more</a>
+            <div>
+            `
+            searchResults.appendChild(article)
+        })
+
+    // if results are empty
+    } else {
+        searchResults.innerHTML = '<p>No results found.</p>'
+    }
+}
+function registerSearchHandler() {
+
+    // register on input event
+    searchInput.oninput = function(event) {
+
+        // remove search results if the user empties the search input field
+        if (searchInput.value == '') {
+            
+            searchResults.innerHTML = ''
+        } else {
+            
+            // get input value
+            var query = event.target.value
+
+            // run fuzzy search
+            var results = fuse.search(`${query} *`)
+
+            // render results
+            renderSearchResults(results)
+        }
+    }
+
+    // set focus on search input and remove loading placeholder
+    searchInput.focus()
+    searchInput.placeholder = ''
+}
+window.onload = function() {
+
+    // get dom elements
+    searchInput = document.getElementById('search-input')
+    searchResults = document.getElementById('search-results')
+
+    // request and index documents
+    fetch('/index.json', {
+        method: 'get'
+    }).then(
+        res => res.json()
+    ).then(
+        res => {
+
+            // index document
+            fuse = new Fuse(res, options);
+                res.forEach(function(doc) {
+                    documents[doc.url] = {
+                        'title': doc.title,
+                        'content': doc.content,
+                    }
+                })
+
+            // data is loaded, next register handler
+            registerSearchHandler()
+        }
+    ).catch(
+        err => {
+            searchResults.innerHTML = `<p>${err}</p>`
+        }
+    )
+}
+</script>

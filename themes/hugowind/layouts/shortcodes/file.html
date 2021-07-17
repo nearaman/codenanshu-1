@@ -1,0 +1,4 @@
+{{ $icon := (print "svg/" (.Get 0) ".svg") }}
+<div class="code-name">
+  <span class="code-icon">{{ partial $icon }}</span> {{ (.Get 1)}} 👇
+</div>

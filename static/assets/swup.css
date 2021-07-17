@@ -1,0 +1,54 @@
+.transition-fade {
+  opacity: 1;
+  transition: 800ms;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+.tooltip{
+  visibility: hidden;
+  position: absolute;
+  transition: 100ms;
+}
+.has-tooltip:hover .tooltip {
+  visibility: visible;
+  z-index: 100;
+  background-color: #7af86aff;
+  color: black;
+
+  transition: 300ms;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
+
+body{
+  background-color: #12181bff;
+  color : #FFFFFFFF;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #101820FF;
+  background: #7af86aff;
+}
+
+::selection {
+  color: #101820FF;
+  background: #7af86aff;
+}
+
+#logo:hover {
+  background-image: url('/assets/giphy.gif');
+  background-size: cover;
+}

@@ -1,0 +1,65 @@
+baseURL: 'https://aianshume.github.io/codenanshu/'
+languageCode: en
+title: codenanshu learn code faster
+theme: hugowind
+paginate: 12
+commentBoxId : 5700448912670720-proj
+publishdir : public
+
+defaultContentLanguage: en
+markup:
+    goldmark:
+        renderer:
+          unsafe: true
+permalinks:
+  pages: /:slug/
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+baseURL: ''
+languageCode: en
+title: codenanshu learn code faster
+theme: hugowind
+paginate: 12
+
+defaultContentLanguage: en
+markup:
+    goldmark:
+        renderer:
+          unsafe: true
+permalinks:
+  pages: /:slug/
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: dracula
+    tabWidth: 4
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - RSS

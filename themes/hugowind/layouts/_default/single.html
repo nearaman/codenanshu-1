@@ -1,0 +1,15 @@
+{{ define "main" }}
+          <section class="text-blueGray-700">
+            <link rel="stylesheet" type="text/css" href="/single.css">
+            <div class="container flex flex-col items-center px-5 py-8 mx-auto">
+              <div class="flex flex-col w-full mb-12 text-left">
+                <div class="w-full mx-auto lg:w-3/4 finishArticle">
+                  <h1 id="title"> {{.Title}} </h1>
+                    <img src="{{.Params.image}}" alt="{{.Title}}">
+                    <p class="text-gray-400">lastly Update On {{ .PublishDate.Format "January 2, 2006" }}</p>
+                    <p>{{.Content}}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+{{ end }}
