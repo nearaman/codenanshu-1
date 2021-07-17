@@ -1,12 +1,16 @@
-#!/bin/zsh
+#!/bin/sh
 
-vared -p "Enter commit message: " -c message
+printf "\e[33m\nstarting Buidler 👷...\e[39m\n"
+printf "\e[33m\n waiting for commit message ⌚...\e[39m\n"
+
+printf "Enter commit message: "
+read message
 
 printf "\e[33m\nBuilding project...\e[39m\n"
 hugo
 
 printf "\\e[33m\nPushing to the web...\e[39m\n\n"
-cd ../public
+cd public
 git add .
 git commit -m "$message"
 git push origin web
