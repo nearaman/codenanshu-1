@@ -13,6 +13,7 @@ printf "\\e[33m\nPushing to the web...\e[39m\n\n"
 cd public
 git add .
 git commit -m "$message"
+git pull origin web
 git push origin web
 printf "\e[32m\nSuccessfully deployed the website!\e[39m"
 
