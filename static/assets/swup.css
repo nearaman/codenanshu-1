@@ -10,7 +10,7 @@ html.is-animating .transition-fade {
 .tooltip{
   visibility: hidden;
   position: absolute;
-  transition: 100ms;
+  transition: 50ms;
 }
 .has-tooltip:hover .tooltip {
   visibility: visible;
