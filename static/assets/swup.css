@@ -47,8 +47,11 @@ body{
   color: #101820FF;
   background: #7af86aff;
 }
+  
 
-#logo:hover {
+@media only screen and (min-width: 400px) {
+  #logo:hover {
   background-image: url('/assets/giphy.gif');
   background-size: cover;
+  }
 }
