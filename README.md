@@ -1,12 +1,10 @@
 # codeNanshu
+# [codenanshu - a simple programmer blog](https://codenanshu.in)
+hi, my name is **[Anshu Meena](https://codenanshu.in/about/)** and i am a computer science student, i am learning programming from the internet, and from my teacher. I love programming, I love to create some amazing thing in computer like a awesome website or problem solving mobile app and much more thing like machine learing and Artifical intelligence, i think any programmer love these consupts because these words sounds cool.
 
-[codenanshu](https://codenanshu.in) is plateform for developer and students to get best content articles on the web to develop there productivity
+created this website to increase productivity of developer 😃
 
-Basic website best hugo and tailwind css work like a portfolio or something else
-
-Comes with best practices out of the box, deployed to github pages and with my old domain name best source to find your articles
-
-if you want to upload your article then please fork the [repo](https://github.com/aianshume/codenanshu)
+if you want to contribute in this project then please fork the [repo](https://github.com/aianshume/codenanshu)
 
 ## Stack
 
@@ -31,4 +29,24 @@ if you want to upload your article then please fork the [repo](https://github.co
 * Purge CSS + HTML Minify configured
 * Ready to deploy use
 
-This website is build with 💕 and ✨ of your name
+## Contribute
+here i have some ways if you want to contribute in this project
+
+ #### Option 1:
+  if you want only to edit some broken link and other grametical mistake the please open a pull request
+  
+  #### Option 2:
+   if you want to edit some highly things like want to fix bugs or want to add some feature the please follow the given steps
+   
+   ```
+   first install hugo
+   then
+   git clone https://github.com/aianshume/codenanshu.git
+   cd codenanshu
+   npm install
+   ```
+   and start working on ! 🥳 🥳 🥳 
+
+
+
+This website is build with 💕 and ✨ of Your Name
