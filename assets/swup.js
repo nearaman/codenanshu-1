@@ -1,5 +1,5 @@
 const swup = new Swup();
-
+// for open mobile menu
 function openMenu() {
   var x = document.getElementById("menu");
   if (x.className == "hidden") {
