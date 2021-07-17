@@ -29,6 +29,24 @@ if you want to contribute in this project then please fork the [repo](https://gi
 * Purge CSS + HTML Minify configured
 * Ready to deploy use
 
+## Contribute
+here i have some ways if you want to contribute in this project
+
+ #### Option 1:
+  if you want only to edit some broken link and other grametical mistake the please open a pull request
+  
+  #### Option 2:
+   if you want to edit some highly things like want to fix bugs or want to add some feature the please follow the given steps
+   
+   ```
+   first install hugo
+   then
+   git clone https://github.com/aianshume/codenanshu.git
+   cd codenanshu
+   npm install
+   ```
+   and start working on ! 🥳 🥳 🥳 
 
 
-This website is build with 💕 and ✨ of your name
+
+This website is build with 💕 and ✨ of Your Name
