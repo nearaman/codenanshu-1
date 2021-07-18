@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-07-09T22:09:44+05:30
-description : "About codenanshu and an anshu me"
+description : "About codenanshu and ai anshu me"
 image : "/img/about.webp"
 ---
 
