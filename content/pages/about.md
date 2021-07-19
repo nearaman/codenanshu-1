@@ -32,7 +32,7 @@ i have many skills in the web development, well i started learing programming in
 * Tailwind CSS
 * HUGO 
 
-and the list is going on
+and the list is going on for while
 
 if you want to contect me then pelase visit
 
