@@ -20,6 +20,20 @@ well as i told before my name is **Anshu Meena** and i am a developer working wi
 
 this website is like the my blog, my portfolio or the best website to learn programming or something else also, but the major reason to craete this website is to share some amazing programming [tutorials](/tutorials) [blogs](/blog) or some [cources](/cources) to learn from.
 
+## What Skills i Have 🤹🏼
+
+i have many skills in the web development, well i started learing programming in the web i have these technology to create a Full Stack Web app and Mobile App.
+
+* HTML
+* CSS
+* JavaScript
+* React JS
+* React Native
+* Tailwind CSS
+* HUGO 
+
+and the list is going on
+
 if you want to contect me then pelase visit
 
 👉 [contact me page](/pages/contact)
