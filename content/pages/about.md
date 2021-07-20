@@ -29,8 +29,6 @@ i have many skills in the web development, well i started learing programming in
 * JavaScript
 * React JS
 * React Native
-* Tailwind CSS
-* HUGO 
 
 and the list is going on for while
 
