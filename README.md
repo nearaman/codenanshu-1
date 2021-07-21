@@ -26,7 +26,6 @@ if you want to contribute in this project then please fork the [repo](https://gi
 * SEO best practices
 * Custom 404 pages
 * Image optimization
-* Purge CSS + HTML Minify configured
 * Deployed To Github Pages
 
 ## Contribute
