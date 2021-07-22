@@ -24,13 +24,7 @@ this website is like the my blog, my portfolio or the best website to learn prog
 
 i have many skills in the web development, well i started learing programming in the web i have these technology to create a Full Stack Web app and Mobile App.
 
-* HTML
-* CSS
-* JavaScript
-* React JS
-* React Native
-* Tailwind CSS
-* HUGO 
+![skills that i have](/img/skills.webp)
 
 and the list is going on for while
 
