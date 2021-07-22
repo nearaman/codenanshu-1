@@ -26,7 +26,7 @@ i have many skills in the web development, well i started learing programming in
 
 ![skills that i have](/img/skills.webp)
 
-and the list is going on for while
+and the list is going on for while 🤨
 
 if you want to contect me then pelase visit
 
