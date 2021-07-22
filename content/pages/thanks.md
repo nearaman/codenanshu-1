@@ -8,6 +8,8 @@ image : "https://images.unsplash.com/photo-1517076731070-13c65bcb2e86?ixid=MnwxM
 spacial thanks to these technologys and persons to there awesome code on the web which help me to develop a website like this one. 
 the list is go on in the future, if you want your name here then please [contribute to this project](https://github.com/aianshume/codenanshu)
 
+ok boy
+
 ## thanks to Persons
 
 * [CodeX Sukhpreet](https://twitter.com/XSukhpreet) - "for share his projects and get some insparation"
