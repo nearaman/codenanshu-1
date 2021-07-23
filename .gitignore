@@ -8,6 +8,7 @@
 # website: https://gohugo.io
 
 # generated files by hugo
+/public/
 .idea
 # executable may be added to repository
 hugo.exe
