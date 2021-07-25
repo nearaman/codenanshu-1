@@ -8,19 +8,19 @@ if you want to contribute in this project then please fork the [repo](https://gi
 
 ## Stack
 
-* Tailwind 2.x
-* Tailwind Typography Plugin
-* GoHugo 0.79.x
-* AlpineJS
-* github pages
-* swupjs
-* emailjs
-* lottie animaion
-* JavaScript
+* Tailwind 2.0 (for styling)
+* Tailwind Typography Plugin (for font)
+* GoHugo 0.86.0 (for static site)
+* github pages (to deploy site)
+* swupjs (for page transition)
+* emailjs (to send mail without backend)
+* animista (for animations)
+* lottie animaion (for animations)
+* JavaScript (only programming language)
 
 ## Features
 
-* Basic Page & Blog
+* high quality Page & Blog
 * Multi Language 
 * Top & Footer navigation
 * SEO best practices
