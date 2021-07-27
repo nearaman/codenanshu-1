@@ -2,59 +2,91 @@
 /*and for swup as well*/
 
 .transition-fade {
-  opacity: 1;
-  transition: 800ms;
+    opacity: 1;
+    transition: 800ms;
 }
 
 html.is-animating .transition-fade {
-  opacity: 0;
+    opacity: 0;
 }
 
-.tooltip{
-  visibility: hidden;
-  position: absolute;
-  transition: 50ms;
+.tooltip {
+    visibility: hidden;
+    position: absolute;
+    transition: 50ms;
 }
 .has-tooltip:hover .tooltip {
-  visibility: visible;
-  z-index: 100;
-  background-color: #7af86aff;
-  color: black;
+    visibility: visible;
+    z-index: 100;
+    background-color: #7af86aff;
+    color: black;
 
-  transition: 300ms;
+    transition: 300ms;
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+    width: 0.25rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+    background: #1e1e24;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+    background: #6649b8;
 }
 
-body{
-  background-color: #12181bff;
-  color : #FFFFFFFF;
+body {
+    background-color: #12181bff;
+    color: #ffffffff;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: #101820FF;
-  background: #7af86aff;
+::-moz-selection {
+    /* Code for Firefox */
+    color: #101820ff;
+    background: #7af86aff;
 }
 
 ::selection {
-  color: #101820FF;
-  background: #7af86aff;
+    color: #101820ff;
+    background: #7af86aff;
 }
-  
 
 @media only screen and (min-width: 400px) {
-  #logo:hover {
-  background-image: url('/assets/giphy.gif');
-  background-size: cover;
-  }
+    #logo:hover {
+        background-image: url("/assets/giphy.gif");
+        background-size: cover;
+    }
+}
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #7af86a;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 2px -3px 41px -1px #7af86a;
+    z-index: -1;
+    opacity: 0;
+}
+
+.lottieZindex {
+    z-index: -2;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+        box-shadow: 0 0 rgba(122, 248, 106, 1);
+    }
+    50% {
+        opacity: 1;
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: scale(1.8);
+        opacity: 0;
+        box-shadow: 0 0 10px 8px transparent;
+        border-radius: 100%;
+    }
 }
