@@ -19,17 +19,3 @@ function closeMenu() {
     }
   }
 }
-
-let curs = document.querySelector(".cursor");
-
-document.addEventListener("mousemove", (e) => {
-  let x = e.pageX;
-  let y = e.pageY;
-  curs.style.left = x - 20 + "px";
-  curs.style.top = y - 20 + "px";
-  curs.style.opacity = "1";
-});
-
-document.addEventListener("click", (e) => {
-  curs.style.transform.translate = "scale(1.2)";
-});

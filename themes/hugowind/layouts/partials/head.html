@@ -1,5 +1,4 @@
 <head>
-
   {{ $title :=  (cond (ne ($.Param "seo.title") nil) ($.Param "seo.title") ( printf "%s | %s" .Title .Site.Title) ) }}
   {{ $description :=  (cond (ne ($.Param "seo.description") nil) ($.Param "seo.description") .Description ) }}
   <title>{{$title}}</title>
@@ -69,6 +68,15 @@
   {{ $style := $css | resources.PostCSS | minify  | fingerprint | resources.PostProcess }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
   {{ end }}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer async src="https://www.googletagmanager.com/gtag/js?id=G-5D7Z6EYSZ0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5D7Z6EYSZ0');
+</script>
   <link rel="stylesheet" type="text/css" href="/assets/swup.css">
   <script defer src="/assets/swup.min.js"></script>
   <script defer src="/assets/swup.js" type="text/javascript"></script>
