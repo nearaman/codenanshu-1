@@ -1,5 +1,5 @@
 ---
-title: "Will Replace Programmers ?"
+title: "Will Ai Replace Programmers ?"
 date: 2021-07-31T08:30:36+05:30
 description : "With AI Writing Code, Will AI Replace Programmers?"
 image : "/img/will-ai-replace-programmers.jpg"
