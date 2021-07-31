@@ -30,4 +30,4 @@ and the list is going on for while 🤨
 
 if you want to contect me then pelase visit
 
-👉 [contact me page](/pages/contact)
+👉 [contact me page](/contact)

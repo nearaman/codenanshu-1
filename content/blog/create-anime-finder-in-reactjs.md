@@ -39,7 +39,7 @@ so i think i need to take some rest and then start working this time is 11 pm so
 after wake up i open the computer and re start the programming and thank you so much to stackoverflow my code is working fine .then on just code and code and finally i create this app and deploy on AWS amplify..
 
 
-finally my app is created thank you so much @[Hashnode](@hashnode) to provide me this opportunity to learn so many things like how to use async and await in JavaScript and how to find errors and help to learn react js i am very happy that i create something for this hackathon i never thing that i can create something like that in this little time but that you once again you give me motivation to do this i know that this is not i a good project but i am satisfy with this web app in react.
+finally my app is created thank you so much hashnode to provide me this opportunity to learn so many things like how to use async and await in JavaScript and how to find errors and help to learn react js i am very happy that i create something for this hackathon i never thing that i can create something like that in this little time but that you once again you give me motivation to do this i know that this is not i a good project but i am satisfy with this web app in react.
 
 thank you so much..
 
