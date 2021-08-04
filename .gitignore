@@ -9,6 +9,7 @@
 
 # generated files by hugo
 .idea
+/public/
 # executable may be added to repository
 hugo.exe
 hugo.darwin
