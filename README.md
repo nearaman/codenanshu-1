@@ -26,7 +26,7 @@ if you want to contribute in this project then please fork the [repo](https://gi
 * SEO best practices
 * Custom 404 pages
 * Image optimization
-* Deployed To Github Pages
+* Deployed To Firebase
 
 ## Contribute
 here i have some ways if you want to contribute in this project
