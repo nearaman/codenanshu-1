@@ -2,7 +2,7 @@
 title: "How to Configure Vim Or Neovim Like vs Code"
 date: 2021-07-25T19:10:49+05:30
 description: "setup vim or neovim as vs code all all extection and many more"
-image: "/img/setup-vim-as-vscode.png"
+image: "/img/setup-vim-as-vscode.webp"
 ---
 
 ## What is Vim or neovim

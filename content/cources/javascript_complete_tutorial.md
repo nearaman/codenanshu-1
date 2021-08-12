@@ -2,7 +2,7 @@
 title: "Complete JavaScript Tutorial"
 date: 2021-07-10T20:41:59+05:30
 description : "learn complete javascript from basic to advance for free"
-image : "/img/learn_javascript.png"
+image : "/img/learn_javascript.webp"
 ---
 
 JavaScript is one of the most loved programming language between the prorgrammer in the world. every web developer love javascript, the most there are so many big consepts that increase the web developer productivity and help to write a good functional website.

@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "hugo server --disableFastRender",
     "serve:network": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --disableFastRender",
-    "build": "hugo --gc --minify"
+    "build": "hugo --gc --minify",
+    "deploy": "hugo --gc --minify && firebase deploy"
   },
   "author": "",
   "license": "ISC",
