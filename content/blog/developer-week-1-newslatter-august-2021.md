@@ -1,7 +1,7 @@
 ---
 title: "Developer Newslatter For Week First Of August"
 date: 2021-08-12T19:46:12+05:30
-description : "best Newslatter for programmer and web developer to take a look at whats happing on the internet related to programming"
+description : "august week 1, get all news related to this week and get you knowladge a boost"
 image : "/img/blog/august-week-1.webp"
 tags : ["Newslatter"]
 ---
