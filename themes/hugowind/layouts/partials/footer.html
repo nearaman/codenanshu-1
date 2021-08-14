@@ -1,4 +1,4 @@
-
+{{ $gitEdit := (print "https://github.com/aianshume/codenanshu/tree/main/content/" (.File.Path)) }}
           <div class="container items-center ">
             <footer>
               <div class="flex flex-col flex-wrap justify-center p-5 md:flex-row">
@@ -27,7 +27,7 @@
               </div>
               <div class="w-full px-8 mt-4 rounded-b-lg bg-blueGray-50">
                 <div class="container inline-flex flex-col flex-wrap items-center px-5 py-6 mx-auto sm:flex-col">
-                  <p class="mx-auto text-sm text-center text-black sm:text-left ">if you find any bug 🐞 or dead link 🧟‍♂️ please fix <a class="text-newgreen" href="https://github.com/aianshume/codenanshu">here ✋</a></p>
+                  <p class="mx-auto text-sm text-center text-black sm:text-left ">if you find any bug 🐞 or dead link 🧟‍♂️ please fix <a class="text-newgreen" href="{{$gitEdit}}">here ✋</a></p>
                   <p class="mx-auto text-sm text-center text-black sm:text-left ">© codenanshu made with 💕 and ✨</p>
                 </div>
               </div>
