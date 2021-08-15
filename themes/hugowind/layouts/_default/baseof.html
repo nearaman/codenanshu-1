@@ -14,30 +14,40 @@
   </body>
   <!-- component -->
   <script defer src="/assets/lottie-player.js"></script>
-  <script defer async type="text/javascript">
-  (function() {
-  emailjs.init("user_2b56wWV67OQcdhXZB94Z3");
-  })();
-  function sendData(){
-    let userName = document.getElementById("name").value;
-    let userEmail = document.getElementById("email").value;
-    let userMessage = document.getElementById("message").value;
-    var toSendData = {
-        name : userName,
-        email : userEmail,
-        message: userMessage
+  <script defer type="text/javascript">
+    function setDoneAnimation(){
+      let animatonCode = '<lottie-player src="/assets/done.json" background="#12181B" speed="1" style="" loop autoplay></lottie-player>';
+      let contactFrom = document.getElementById("contact-form");
+      contactFrom.innerHTML = animatonCode;
     }
+    async function sendData(){
+      let fieldName = document.getElementById('name').value;
+      let fieldEmail = document.getElementById('email').value;
+      let fieldMessage = document.getElementById('message').value;
+      let emailHash = null;
 
-    emailjs.send('service_cbwmbgm', 'template_nhlzrny', toSendData)
-                    .then(function() {
-                        console.log('SUCCESS!');
-                    }, function(error) {
-                        console.log('FAILED...', error);
-                    });
+        await fetch("https://api.hashify.net/hash/md5/hex?value="+fieldEmail.toLowerCase())
+        .then(res=> res.json())
+        .then(data => emailHash = data.Digest);
 
-    console.log(toSendData)
-  }
+        let params = {
+          username: fieldName,
+          avatar_url: "https://www.gravatar.com/avatar/"+emailHash,
+          content: fieldMessage + " you can contact me at : " + fieldEmail
+        }
 
+      var request = new XMLHttpRequest();
+      request.open("POST", "https://discord.com/api/webhooks/876283951998726185/w511wwzOH9jNJwEwpJao9n9Ehq7v08UhKPOdJp26ePA4UGb91bbrvHe5EEVVaICmhuf6");
+
+      request.setRequestHeader('Content-type', 'application/json');
+
+      request.send(JSON.stringify(params));
+
+      console.log(params);
+
+      console.log("message send succesfully");
+      setDoneAnimation();
+    }
   </script>
   
 </html>
