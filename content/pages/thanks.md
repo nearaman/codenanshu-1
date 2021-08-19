@@ -8,10 +8,19 @@ image : "https://images.unsplash.com/photo-1517076731070-13c65bcb2e86?ixid=MnwxM
 spacial thanks to these technologys and persons to there awesome code on the web which help me to develop a website like this one. 
 the list is go on in the future, if you want your name here then please [contribute to this project](https://github.com/aianshume/codenanshu)
 
-ok boy
-
 ## thanks to Persons
 
 * [CodeX Sukhpreet](https://twitter.com/XSukhpreet) - "for share his projects and get some insparation"
 * [fireship.io](https://fireship.io) - "get some UI recommandation"
 * [near aman](https://github.com/nearaman) - "for logo recommandation"
+
+## Dependencies of This Projects
+
+* [Hugo](https://gohugo.io) - static site generator v0.84.0
+* [Tailwind css](https://tailwindcss.com/) - Css library v2.x
+* [Swupjs](https://swup.js.org/) - page transition v2.0.14
+* [Fuse.js](https://fusejs.io/) - search client side v6.4.6
+* [Animista](https://animista.net/) - css animations @latest
+* [Lottie Animations](https://lottiefiles.com/) - lightweight JS animations @latest
+* [hugowind](https://www.themes.dev/hugowind/) - hugo theme with tailwind @latest
+* [Firebase](https://firebase.google.com) - backend as service @latest
