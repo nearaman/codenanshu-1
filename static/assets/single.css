@@ -123,6 +123,12 @@ code > span {
     font-size: 1rem;
 }
 
+code {
+    background-color: #2a2e35;
+    padding: 3px;
+    border-radius: 2px;
+}
+
 div#content a {
     color: #1da1f2;
 }
