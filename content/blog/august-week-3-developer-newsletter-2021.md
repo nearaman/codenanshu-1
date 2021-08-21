@@ -55,3 +55,41 @@ A sample app built with Jetpack Compose
 
 What lies in store for Kotlin in the next decade? Together with Roman Elizarov, gaze into the future, and watch the collected insights in this video. 
 
+## Stack Overflow Developer Survey 2021
+
+there are many this came in **Stackoverflow** survey 2021 and acording to that **Rust** is the most Loved programming language of all time. you can see the survey on the offical stackoverflow website [link here](https://insights.stackoverflow.com/survey/2021)
+
+## Developer Tech Trends on Twitter Everyday
+
+i don't know why Developer Tech are in trending on twitter i watch everyday multi hashtags like **#Csharp** **TypeScript** **GraphQL** and many more are trends everyday.
+
+## Most used Code Editor by Developers
+
+well, in stackoverflow survey 2021 we see that **Visual Studio Code** is used by **71%** developers and it's one of the fastest growing code editor of all time. in 2020 VS code is used by only 50% of th developer but now its gain 20% more.
+
+## Most Loved Technology With React.
+
+as you know that react is one of the most loved JavaScript library according to Stackoverflow 2021 survay but programmer don't like react diractly they love react with these stacks
+
+* React
+* Nextjs & Gastby
+* React Native with Hermes
+* React with Electronjs
+* React wih Redux
+
+## React Native With Hermes VS Flutter.
+
+hermes is javascript enigne created by Facebook open source to optimize react native speed at runtime and React Native is also created by Facebook open source to create cross plateform mobile apps.
+
+Flutter is created by Google to create cross plateform mobile apps its use Dart. Dart compiler is writen in C++ that's why its create speed in our apps.
+
+but i think if any any React Native Develoer use hermes in there project and write code with efficent and right way then he/she can achive nice performance like flutter in easy way.
+
+## RELEASES: 
+
+* [Mocha 9.1.0](https://javascriptweekly.com/link/112718/web) – Testing framework.
+* [svgo 2.4.0](https://javascriptweekly.com/link/112691/web) – Node tool for optimizing SVG files.
+* [Node 16.7.0](https://javascriptweekly.com/link/112692/web) – Experimentally adds a recursive cp method.
+* [Capacitor 3.2.0](https://javascriptweekly.com/link/112693/web) – Build native PWAs for iOS, Android, and the Web.
+* [WebTorrent 1.5.0](https://javascriptweekly.com/link/112694/webhttps://javascriptweekly.com/link/112695/web) – Streaming torrent client for the web.
+* [Cypress 8.3.0](https://javascriptweekly.com/link/112695/web) – Testing for anything that runs in a browser.
