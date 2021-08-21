@@ -31,3 +31,11 @@ and the list is going on for while 🤨
 if you want to contect me then pelase visit
 
 👉 [contact me page](/contact)
+
+other pages of the site
+
+[cloud](/cloud)
+[cources](/cources)
+[notes](/notes)
+[pages](/pages)
+[tutorials](/tutorials)

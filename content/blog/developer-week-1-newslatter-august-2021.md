@@ -30,7 +30,7 @@ Some tools and assets to help you build your next project since we are best frie
 7.  [Glassmorphism CSS Generator](https://ui.glass/generator)
 8.  [3D illustration](https://3d.khagwal.co/) pack just for you
 
-For those of you who don't know, the ZTM team and I list our [all-time best free resources here for you](/resources/). Or... you can go back and read all 36 of the previous issues (that's **3 years** of Web Developer weekly 🥳!). That's a joke. Don't do that!
+For those of you who don't know, the ZTM team and I list our all-time best free resources here for you. Or... you can go back and read all 36 of the previous issues (that's **3 years** of Web Developer weekly 🥳!). That's a joke. Don't do that!
 
 ### Github Copilot 🧑🏽‍✈️
 
