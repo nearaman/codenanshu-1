@@ -31,7 +31,8 @@ npm install
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/aianshume/codenanshu/issues). 
+Contributions, if you decided to contribute in this project then read Wiki 🥰
+[wiki](https://github.com/aianshume/codenanshu/wiki)
 
 ## Show your support
 
