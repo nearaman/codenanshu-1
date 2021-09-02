@@ -21,19 +21,6 @@
 </section>
 </div>
   <script defer type="text/javascript">
-    function setDoneAnimation(){
-      let animatonCode = '<lottie-player src="/assets/done.json" background="#0066ff" speed="1" style="" loop autoplay></lottie-player>';
-
-      let contactFrom = document.getElementById("contact-form");
-      
-      let formCode = '<div id="contact-form"><section class="body-font relative"  style="background-image: url(/img/waves/steps.svg); background-position: center; background-repeat: no-repeat; background-size: cover;"><div class="container py-24 mx-auto"><div class="lg:w-1/2 md:w-2/3 sm:mx-auto mx-2"><from id="contact-form" class="flex flex-wrap -m-2"><div class="p-2 w-1/2"><input class="w-full bg-gray-100 rounded border border-newgrey2 focus:outline-none focus:border-blue-500 text-base px-4 py-2 bg-newgrey" placeholder="Name" type="text" id="name"></div><div class="p-2 w-1/2"><input class="w-full bg-gray-100 rounded border border-newgrey2 focus:outline-none focus:border-blue-500 text-base px-4 py-2 bg-newgrey" placeholder="Email" type="email" id="email"></div><div class="p-2 w-full"><textarea class="w-full bg-gray-100 rounded border border-newgrey2 focus:outline-none h-48 focus:border-blue-500 text-base px-4 py-2 resize-none block bg-newgrey" placeholder="Comments" id="message"></textarea></div><div class="p-2 w-full"><button onclick="sendData()" class="flex mx-auto text-white bg-newgrey shadow-sm border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Submit ✉️ </button></div></from></div></div></section></div>';
-      
-      contactFrom.innerHTML = animatonCode;
-
-      setTimeout(()=> {
-        contactFrom.innerHTML = formCode;
-      },4000)
-    }
     async function sendData(){
       let fieldName = document.getElementById('name').value;
       let fieldEmail = document.getElementById('email').value;
@@ -59,7 +46,10 @@
 
       console.log(params);
 
-      console.log("message send succesfully");
-      setDoneAnimation();
+      alert("message send succesfully");
+      
+      fieldEmail = ''
+      fieldName = ''
+      fieldMessage = ''
     }
   </script>

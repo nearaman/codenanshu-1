@@ -12,16 +12,17 @@ module.exports = {
 
   theme: {
     colors : {
-      newblack: "#12181bff",
-      newblack2: "#0B1115",
+      newblack: "#101920",
+      newblack2: "#242930",
       newgrey: "#2a2e35ff",
       newgreen: "#7af86aff",
-      neworange: "#fb915bff",
-      newwhite: "#ffffffff",
-      newgrey2: '#B2BECD',
+      neworange: "#ffe715",
+      newwhite: "#ffffff",
+      newgrey2: '#e8eaed',
       newyellow : '#ffdf00',
       youtube : '#FF0000',
-      twitter : '#1DA1F2'
+      twitter : '#1DA1F2',
+      discord: "#5865f2"
     },
     extend: {
 

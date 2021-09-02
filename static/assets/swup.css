@@ -13,15 +13,12 @@ html.is-animating .transition-fade {
 .tooltip {
     visibility: hidden;
     position: absolute;
-    transition: 50ms;
 }
 .has-tooltip:hover .tooltip {
     visibility: visible;
     z-index: 100;
     background-color: #7af86aff;
     color: black;
-
-    transition: 300ms;
 }
 
 body::-webkit-scrollbar {
@@ -50,11 +47,4 @@ body {
 ::selection {
     color: #101820ff;
     background: #7af86aff;
-}
-
-@media only screen and (min-width: 400px) {
-    #logo:hover {
-        background-image: url("/assets/giphy.gif");
-        background-size: cover;
-    }
 }

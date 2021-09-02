@@ -1,6 +1,6 @@
 baseURL: 'https://codenanshu.in/'
 languageCode: en
-title: codenanshu learn code faster
+title: codenanshu
 theme: hugowind
 paginate: 12
 commentBoxId : 5700448912670720-proj
@@ -29,7 +29,7 @@ markup:
     tabWidth: 4
 baseURL: ''
 languageCode: en
-title: codenanshu learn code faster
+title: codenanshu
 theme: hugowind
 paginate: 12
 
