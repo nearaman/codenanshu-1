@@ -111,6 +111,9 @@ Read more about destructing here [MDN Destructing Assignment](https://developer.
 ## 4. Template Literals
 
 Template Literals or sometimes called template strings are just like string literals but with the power of multiline strings, string formatting and HTML escaping for safe use in HTML. We use backticks with template literals ``(` `)``. Let's an example then:
+
+{{<blog-post-ad>}}
+
 {{<file "js" "index.js">}}
 {{<highlight "javascript">}}
     const username = "James"

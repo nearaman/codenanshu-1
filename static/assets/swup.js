@@ -9,6 +9,7 @@ function openMenu() {
   }
 }
 function closeMenu() {
+  console.log('function is called')
   let width = screen.width;
   if (width < 640) {
     let x = document.getElementById("menu");
