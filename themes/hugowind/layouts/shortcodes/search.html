@@ -1,126 +1,141 @@
 <div class="flex items-center shadow-xl w-full">
-    <input class=" bg-newgrey rounded w-full py-4 px-6 text-gray-200 leading-tight" id="search-input" type="text" placeholder="Search" name="search">
-      <div class="p-4" oninput="searchForData(event)">
-        <button class="bg-neworange text-white rounded p-2 hover:bg-blue-400 focus:outline-none w-12 h-12 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-          </svg>
+    <input
+        class="bg-newgrey rounded w-full py-4 px-6 text-gray-200 leading-tight"
+        id="search-input"
+        type="text"
+        placeholder="Search"
+        name="search"
+    />
+    <div class="p-4" oninput="searchForData(event)">
+        <button
+            class="
+                bg-neworange
+                text-white
+                rounded
+                p-2
+                hover:bg-blue-400
+                focus:outline-none
+                w-12
+                h-12
+                flex
+                items-center
+                justify-center
+            "
+        >
+            <svg
+                class='fill-current text-newblack'
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                    d="M18.677 19.607L12.962 13.891C10.4196 15.6985 6.91642 15.2564 4.90285 12.8739C2.88929 10.4915 3.03714 6.96361 5.24298 4.75802C7.44824 2.55147 10.9765 2.40298 13.3594 4.41644C15.7422 6.42989 16.1846 9.93347 14.377 12.476L20.092 18.192L18.678 19.606L18.677 19.607ZM9.48498 5.00001C7.58868 4.99958 5.95267 6.3307 5.56745 8.18745C5.18224 10.0442 6.15369 11.9163 7.89366 12.6703C9.63362 13.4242 11.6639 12.8529 12.7552 11.3021C13.8466 9.75129 13.699 7.64734 12.402 6.26402L13.007 6.86402L12.325 6.18402L12.313 6.17202C11.5648 5.4192 10.5464 4.99715 9.48498 5.00001Z"
+                ></path>
+            </svg>
         </button>
-      </div>
     </div>
-    <section id="search-results" class="search"></section>
+</div>
+<section id="search-results" class="search"></section>
 
 <script defer type="text/javascript">
-var fuse, searchInput, searchResults = null
-var documents = []
-const options = {
-    // isCaseSensitive: false,
-    // includeScore: false,
-    // shouldSort: true,
-    // includeMatches: false,
-    // findAllMatches: false,
-    // minMatchCharLength: 1,
-    // location: 0,
-    // threshold: 0.6,
-    // distance: 100,
-    // useExtendedSearch: false,
-    // ignoreLocation: false,
-    // ignoreFieldNorm: false,
-    keys: [
-      "title",
-      "description"
-    ]
-  };
+    var fuse,
+        searchInput,
+        searchResults = null;
+    var documents = [];
+    const options = {
+        // isCaseSensitive: false,
+        // includeScore: false,
+        // shouldSort: true,
+        // includeMatches: false,
+        // findAllMatches: false,
+        // minMatchCharLength: 1,
+        // location: 0,
+        // threshold: 0.6,
+        // distance: 100,
+        // useExtendedSearch: false,
+        // ignoreLocation: false,
+        // ignoreFieldNorm: false,
+        keys: ["title", "description"],
+    };
 
-function renderSearchResults(results){
+    function renderSearchResults(results) {
+        if (results.length > 0) {
+            // show max 10 results
+            if (results.length > 9) {
+                results = results.slice(0, 10);
+            }
 
-    if (results.length > 0) {
+            // reset search results
+            searchResults.innerHTML = "";
 
-        // show max 10 results
-        if (results.length > 9){
-            results = results.slice(0,10)
-        }
-
-        // reset search results
-        searchResults.innerHTML = ''
-
-        // append results
-        results.forEach(result => {
-        
-            // create result item
-            var article = document.createElement('article')
-            article.innerHTML = 
-            `
-            <div class="searchitem">
+            // append results
+            results.forEach((result) => {
+                // create result item
+                var article = document.createElement("article");
+                article.innerHTML = `
+            <div class="bg-newgrey px-5 py-2 rounded my-5">
             <a href="${result.item.href}"><h3 class="title">${result.item.title}</h3></a>
             <p class="searchdec">${result.item.description}</p>
-            <a href="${result.item.href}" class="text-newgreen">know more</a>
+            <a href="${result.item.href}" class="text-newgreen">know more 👆‍‍</a>
             <div>
-            `
-            searchResults.appendChild(article)
-        })
+            `;
+                searchResults.appendChild(article);
+            });
 
-    // if results are empty
-    } else {
-        searchResults.innerHTML = '<p>No results found.</p>'
-    }
-}
-function registerSearchHandler() {
-
-    // register on input event
-    searchInput.oninput = function(event) {
-
-        // remove search results if the user empties the search input field
-        if (searchInput.value == '') {
-            
-            searchResults.innerHTML = ''
+            // if results are empty
         } else {
-            
-            // get input value
-            var query = event.target.value
-
-            // run fuzzy search
-            var results = fuse.search(`${query} *`)
-
-            // render results
-            renderSearchResults(results)
+            searchResults.innerHTML = "<p>No results found.</p>";
         }
     }
+    function registerSearchHandler() {
+        // register on input event
+        searchInput.oninput = function (event) {
+            // remove search results if the user empties the search input field
+            if (searchInput.value == "") {
+                searchResults.innerHTML = "";
+            } else {
+                // get input value
+                var query = event.target.value;
 
-    // set focus on search input and remove loading placeholder
-    searchInput.focus()
-    searchInput.placeholder = ''
-}
-window.onload = function() {
+                // run fuzzy search
+                var results = fuse.search(`${query} *`);
 
-    // get dom elements
-    searchInput = document.getElementById('search-input')
-    searchResults = document.getElementById('search-results')
+                // render results
+                renderSearchResults(results);
+            }
+        };
 
-    // request and index documents
-    fetch('/index.json', {
-        method: 'get'
-    }).then(
-        res => res.json()
-    ).then(
-        res => {
+        // set focus on search input and remove loading placeholder
+        searchInput.focus();
+        searchInput.placeholder = "";
+    }
+    window.onload = function () {
+        // get dom elements
+        searchInput = document.getElementById("search-input");
+        searchResults = document.getElementById("search-results");
 
-            // index document
-            fuse = new Fuse(res, options);
-                res.forEach(function(doc) {
+        // request and index documents
+        fetch("/index.json", {
+            method: "get",
+        })
+            .then((res) => res.json())
+            .then((res) => {
+                // index document
+                fuse = new Fuse(res, options);
+                res.forEach(function (doc) {
                     documents[doc.url] = {
-                        'title': doc.title,
-                        'content': doc.content,
-                    }
-                })
+                        title: doc.title,
+                        content: doc.content,
+                    };
+                });
 
-            // data is loaded, next register handler
-            registerSearchHandler()
-        }
-    ).catch(
-        err => {
-            searchResults.innerHTML = `<p>${err}</p>`
-        }
-    )
-}
+                // data is loaded, next register handler
+                registerSearchHandler();
+            })
+            .catch((err) => {
+                searchResults.innerHTML = `<p>${err}</p>`;
+            });
+    };
 </script>

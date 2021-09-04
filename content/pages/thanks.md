@@ -12,7 +12,7 @@ the list is go on in the future, if you want your name here then please [contrib
 
 * [CodeX Sukhpreet](https://twitter.com/XSukhpreet) - "for share his projects and get some insparation"
 * [fireship.io](https://fireship.io) - "get some UI recommandation"
-* [near aman](https://github.com/nearaman) - "for logo recommandation"
+* [near aman](https://matrix-linux.web.app/) - "for logo recommandation"
 
 ## Dependencies of This Projects
 
@@ -21,6 +21,9 @@ the list is go on in the future, if you want your name here then please [contrib
 * [Swupjs](https://swup.js.org/) - page transition v2.0.14
 * [Fuse.js](https://fusejs.io/) - search client side v6.4.6
 * [Animista](https://animista.net/) - css animations @latest
-* [Lottie Animations](https://lottiefiles.com/) - lightweight JS animations @latest
 * [hugowind](https://www.themes.dev/hugowind/) - hugo theme with tailwind @latest
 * [Firebase](https://firebase.google.com) - backend as service @latest
+* [storyset](https://storyset.com/) - css animated svgs
+* [coolicons](https://coolicons.cool/) - svg icons
+* [heropatterns](https://www.heropatterns.com/) - background svg for hero section
+* [unsplash](https://unsplash.com) - for images
