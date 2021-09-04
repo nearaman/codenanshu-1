@@ -354,7 +354,7 @@ ul {
  */
 
 html {
-  font-family: Varela Round, sans-serif; /* 1 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -16590,7 +16590,7 @@ video {
 }
 
 .font-sans {
-  font-family: Varela Round, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .font-serif {
@@ -35709,7 +35709,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Varela Round, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .sm\:font-serif {
@@ -54748,7 +54748,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Varela Round, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .md\:font-serif {
@@ -73787,7 +73787,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Varela Round, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .lg\:font-serif {
@@ -92826,7 +92826,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Varela Round, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .xl\:font-serif {
@@ -111865,7 +111865,7 @@ video {
   }
 
   .\32xl\:font-sans {
-    font-family: Varela Round, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
 
   .\32xl\:font-serif {

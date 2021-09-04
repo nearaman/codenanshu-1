@@ -28,7 +28,7 @@ module.exports = {
 
       fontFamily: {
         ...fontFamily,
-        'sans': 'Varela Round, sans-serif'
+        'sans': '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif'
       },
 
       typography: (theme) => ({

@@ -8,7 +8,7 @@ swup.on("contentReplaced", init);
 
 function init() {
   if (document.querySelector("#googleArticleAd")) {
-    let ads = document.querySelectorAll('#googleArticleAd');
+    var ads = document.querySelectorAll('#googleArticleAd');
     console.log('ads found')
     for (var i = 0; i < ads.length; i++){
       (adsbygoogle = window.adsbygoogle || []).push({});
