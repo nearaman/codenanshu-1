@@ -51,3 +51,4 @@ document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
 });
 {{</highlight>}}
+{{<blog-post-ad>}}

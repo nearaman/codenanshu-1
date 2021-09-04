@@ -47,6 +47,8 @@ CSS Battle is more of an online challenge than an actual CSS practice game, the 
 
 The CSS Diner webapp is really fun and genuinely educational for developers of all skill levels. You’ll go through 26 different levels of increasing difficulty. The first few levels teach core fundamentals like element selectors and class selectors. In the later levels you’re working with advanced concepts like :only-of-type and :not(x).
 
+{{<blog-post-ad>}}
+
 ### 7\. [CodePip](https://codepip.com/)
 
 ![Code pip](https://i.imgur.com/UNmPh6x.png)
@@ -106,3 +108,5 @@ Paid Games 🤑
 ![Grid cutters](https://i.imgur.com/xH0phte.png)
 
 Your journey to master CSS Grid begins on the mysterious planet Grideros. Your mission is to use your ship's powerful Grid tool to save alien critters from extinction. A registration is required.
+
+{{<blog-post-ad>}}

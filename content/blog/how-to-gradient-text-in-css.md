@@ -20,3 +20,6 @@ h2 {
 its awesome the result of this code is look like 
 
 ![Gradient Text In CSS](https://cdn.hashnode.com/res/hashnode/image/upload/v1616597138848/HumUxTx1H.png)
+
+{{<blog-post-ad>}}
+

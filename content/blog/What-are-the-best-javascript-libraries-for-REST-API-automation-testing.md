@@ -66,6 +66,8 @@ Now, let's take a look at how Mocha test would look like with SuperTest -
     });
 {{</highlight>}}    
 
+{{<blog-post-ad>}}
+
 Enter fullscreen mode Exit fullscreen mode
 
 If you notice, we took the SuperTest `request` block and put that inside the `it` block. In the same way, we can create multiple `it` blocks for various test scenarios.
@@ -123,3 +125,5 @@ Note: There are many other alternatives that can be used for these libraries or 
   
 Follow [@automationbro](https://dev.to/automationbro) on Twitter for the latest updates  
 Subscribe to my [YouTube channel](https://www.youtube.com/automationbro?sub_confirmation=1) to see more content like this
+
+{{<blog-post-ad>}}

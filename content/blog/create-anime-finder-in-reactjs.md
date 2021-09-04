@@ -24,6 +24,8 @@ letter on i install **Tailwindcss** in react app and then never write CSS in rea
 
 I got little bit everything for my web app and now there is a big problem with my web app i have not data to show on the website like **Anime name** and staring date and ending date all the data related to the anime and i have no time to download the data from the internet and then show on the web app so i want a API which provide me all the data related to anime i try to find out so many API but some are paid or some are not working for me.
 
+{{<blog-post-ad>}}
+
 Now finally i found a API name as [**Jikan**](https://jikan.docs.apiary.io/#) but i don't know how to use it
 
 
@@ -73,3 +75,5 @@ If you want to see the live demo then click on this link
 
 And if you want to see the code then check it out in GitHub repository
 [GitHub repo](https://github.com/anshumeena1947/anime-web-app)
+
+{{<blog-post-ad>}}

@@ -20,6 +20,7 @@ In order to determine which keys a user has pressed, we need to add a listener f
     
     _(Check out [Keycode.info](https://keycode.info/) for a convenient tool that allows you to easily visualize JavaScript's keycodes.)_
     
+{{<blog-post-ad>}}
 
 ### Modifier Keys
 
@@ -82,6 +83,8 @@ For example, if we want to register a keydown handler that gets set when a compo
       }, [])
 {{</highlight>}}
 
+{{<blog-post-ad>}}
+
 As an alternative, if you want to have your keydown handler defined outside of the `useEffect` because it has its own set of dependencies that it needs to keep track of, you could make use of the [useCallback hook](https://reactjs.org/docs/hooks-reference.html#usecallback) and set it up like so:
 {{<file "js" "index.js">}}
 {{<highlight "javascript">}}
@@ -108,3 +111,5 @@ As you can see, programming shortcuts into an application is fairly straightforw
 If you enjoy what you read, feel free to like this article or subscribe to my newsletter, where I write about programming and productivity tips.
 
 As always, thank you for reading, and happy coding!
+
+{{<blog-post-ad>}}

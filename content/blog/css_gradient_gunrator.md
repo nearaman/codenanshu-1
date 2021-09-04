@@ -47,4 +47,6 @@ here just add the color code of gradient which your copy from the upper website 
 
 i hope you like this article please like 
 
+{{<blog-post-ad>}}
+
 ##### happy coding

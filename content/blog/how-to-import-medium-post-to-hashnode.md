@@ -51,3 +51,5 @@ then click on import
 then just upload the downloaded file form medium
 
 ![How to import medium post in hashnode?](https://cdn.hashnode.com/res/hashnode/image/upload/v1616749648671/wcqXgZq-j.png)
+
+{{<blog-post-ad>}}

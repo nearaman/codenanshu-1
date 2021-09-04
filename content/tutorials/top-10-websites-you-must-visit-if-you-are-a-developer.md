@@ -9,10 +9,13 @@ image : "https://yashw.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.c
 
 I'm Yash Waghmare, a 19-year-old 😄 tech enthusiast and a coder 👨‍💻 who is starting his journey in the field of web and software development who finally started blogging. After learning quite a bit about web development, software development, and programming languages, I thought why not give it a try to write a blog! So, I started and this is my first ever blog. Enjoy! 🥳
 
+
 The Top 10 websites
 -------------------
 
 * * *
+
+{{<blog-post-ad>}}
 
 ### 1\. [Get Avataaars](https://getavataaars.com/) 👱‍♂️
 
@@ -43,6 +46,8 @@ The developer also has [Art generator](https://thisartworkdoesnotexist.com/) and
 This website is a code-sharing website used by most bloggers which transforms your ugly-looking code into a colorful gradient image that enhances the code. You can use it in your blogs or you can even share your code snippets with your friends instead of just copy-pasting. You can paste the code in the given window choose the programming language and customize the background, padding, size, etc as per your needs. You can export it with PNG format, SVG, or copy the link. All of it is 🅵🆁🅴🅴 .
 
 ![05.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621802357625/D7hZ8nbbO.png?auto=compress,format&format=webp)
+
+{{<blog-post-ad>}}
 
 ### 6\. [Freebies by people](https://freebies.bypeople.com/) 🆓
 
@@ -91,5 +96,7 @@ Feedback and Comments are welcomed here! 💌
 \-[LinkedIn](https://www.linkedin.com/in/yash-waghmare/)
 
 See you on the next blog!
+
+{{<blog-post-ad>}}
 
 Good-bye 🙋‍♂️👋

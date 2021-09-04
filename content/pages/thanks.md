@@ -27,3 +27,5 @@ the list is go on in the future, if you want your name here then please [contrib
 * [coolicons](https://coolicons.cool/) - svg icons
 * [heropatterns](https://www.heropatterns.com/) - background svg for hero section
 * [unsplash](https://unsplash.com) - for images
+
+{{<blog-post-ad>}}

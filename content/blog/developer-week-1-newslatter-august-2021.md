@@ -32,6 +32,8 @@ Some tools and assets to help you build your next project since we are best frie
 
 For those of you who don't know, the ZTM team and I list our all-time best free resources here for you. Or... you can go back and read all 36 of the previous issues (that's **3 years** of Web Developer weekly 🥳!). That's a joke. Don't do that!
 
+{{<blog-post-ad>}}
+
 ### Github Copilot 🧑🏽‍✈️
 
 [The big news this week](https://copilot.github.com/) was the release of Github Copilot with the help of OpenAI _(The one's who made GPT-3)_. GitHub Copilot is powered by Codex, the new AI system created by OpenAI. GitHub Copilot understands significantly more context than most code assistants. So, whether it’s in a docstring, comment, function name, or the code itself, GitHub Copilot uses the context you’ve provided and synthesizes code to match. It's like pair programming with a robot. Don't worry, developer jobs aren't going away because of AI. As with most things, this is still new and it will never write code perfectly.
@@ -82,6 +84,8 @@ Next time you are writing a blog post and you want to embed some live _(editable
 
 The web is single-threaded (_Thanks JavaScript!_). This makes it increasingly hard to write smooth and responsive apps. Web Workers have a bad rep, but can be an important and useful tool in any web developer’s toolbelt for the kinds of problems where you need a little something "extra". [Let’s get up to speed on Workers for the Web in 2021 and when you should use them](https://www.smashingmagazine.com/2021/06/web-workers-2021)!
 
+{{<blog-post-ad>}}
+
 ### 100% in CSS 🦋
 
 Here is a classic question that you probably never asked yourself but now that I mention it here, [you will read about](https://wattenberger.com/blog/css-percents) and think: _"wow that's really cool and will remember it for the next 7 days and then forget about it again"_.
@@ -103,6 +107,8 @@ Although it is becoming less common to see these methods used in JavaScript with
 ### `npm audit` Hate 🥊
 
 An opinionated piece from everyone's favourite developer to retweet. Is `npm audit` broken? [You decide](https://overreacted.io/npm-audit-broken-by-design/).
+
+{{<blog-post-ad>}}
 
 ### /events not Webhooks 🏌️
 
@@ -158,3 +164,5 @@ _The secret of the world is that it is a very malleable place, we must be sure t
 *   Cool new VS Code theme: [Serendipity](https://wvsc.dev/)
 
 See you next week!
+
+{{<blog-post-ad>}}

@@ -90,3 +90,5 @@ In 2016, Microsoft released a Twitter bot called Tay. It was designed to mimic t
 ## conclusion
 
 but i think the AI Programmer can able to replace software programmers or the developer who do'nt want to use there own logic in near future. so there is a no problem for the logic building prgramemrs like AI developers or something else. but there still a chance.
+
+{{<blog-post-ad>}}

@@ -27,6 +27,7 @@ so lets started and find the best app for note taking online first i Google for 
 and some more but there are so many problem related to this and i found a better solution ever
 
 so the solution is,
+
 ### notion.so
 this is really a amazing tool ever which i use that's really awesome 
 
@@ -49,3 +50,5 @@ after at all i want to say use notion for all your purpose its really awesome an
 ![Absolutely Best Note Taking Tool Ever Made For Programmers](https://cdn.hashnode.com/res/hashnode/image/upload/v1616595688627/q4AMvbFIn.gif)
 
 visit  [Notion.so](https://notion.so) 
+
+{{<blog-post-ad>}}

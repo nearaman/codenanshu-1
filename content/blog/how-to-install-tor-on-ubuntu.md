@@ -35,4 +35,6 @@ its so essay then before
 
 ![How to Install Tor Browser on Ubuntu 18.04 Agreeable trick](https://cdn.hashnode.com/res/hashnode/image/upload/v1616727926219/QZfOOXFnz.gif)
 
+{{<blog-post-ad>}}
+
 happy anonymous browsing

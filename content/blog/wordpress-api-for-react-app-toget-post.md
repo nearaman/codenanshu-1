@@ -49,3 +49,5 @@ return (
 {{</highlight>}}
 
 in this way you can easy fetch data from the API if you need more infomation about the WORDPRESS REST API then visit https://developer.wordpress.org/rest-api/
+
+{{<blog-post-ad>}}

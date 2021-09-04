@@ -51,7 +51,7 @@ brew install neovim
 
 the same step is going for vim text editior just replace neovim to vim so now we have are vim and neovim are installed in our system so its time to edit the configuration and make our vim or neovim look and work like vs code so lets get started
 
-:34
+{{<blog-post-ad>}}
 
 ## Configuration
 
@@ -297,6 +297,7 @@ nnoremap <C-s> :w<CR>
 " Alternative way to quit
 nnoremap <C-M> :wq<CR>
 {{</highlight>}}
+{{<blog-post-ad>}}
 
 after copy paste the about code in init.vim you need to just save the code and then just open any other file using vim or neovim for example you have hello.js on desktop then just run the line in terminal `nvim hello.js` and you have the nvim opend then just press : and the enter `PlugInstall` and you find that plugins are going to install. just wait for these download and the after the download is completed just exit the vim or nvim and then just simply reopen the editor and you can see the changes .
 lets take a look on the keyboard shortcuts that i created for you.

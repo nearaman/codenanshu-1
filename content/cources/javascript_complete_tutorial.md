@@ -28,4 +28,5 @@ ya, there are so many free tutorials out there from where you can learn javascri
 * [w3schools](https://www.w3schools.com/js/default.asp)
 * [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [generalassembly.ly](https://dash.generalassemb.ly/)
-* 
+
+{{<blog-post-ad>}}

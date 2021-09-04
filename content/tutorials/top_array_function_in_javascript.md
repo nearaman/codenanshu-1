@@ -44,6 +44,9 @@ forEach() method is similar to map() i.e it runs on each element of the array it
     // and so on..
  {{</highlight>}}   
 
+{{<blog-post-ad>}}
+
+
 **filter()**
 ------------
 
@@ -158,4 +161,5 @@ includes() methods return true if a certain values exists in the array its calle
     
     // false
 {{</highlight>}}
-    
+
+{{<blog-post-ad>}}

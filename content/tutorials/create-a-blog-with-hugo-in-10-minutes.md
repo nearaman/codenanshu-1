@@ -40,4 +40,6 @@ once you add theme you need to mount the theme, so to mount the theme open `conf
 
 now just follow the upper 👆 video to get all information about that then you are able to create content and host on github pages.
 
+{{<blog-post-ad>}}
+
 thanks you reading. 😀

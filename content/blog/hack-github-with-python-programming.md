@@ -69,3 +69,5 @@ its running ........ and know finally check your GitHub now its hack
 
 if you have any dough then check this GitHub repository [Mohitesh Ch Agarwal](https://github.com/mohitesh07/github-hack) and watch this YouTube video [youtube video link is here](https://www.youtube.com/watch?v=gGHLcr3CQos)
 
+{{<blog-post-ad>}}
+

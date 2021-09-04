@@ -16,6 +16,8 @@ When I first started using Linux, it was for its excellent multimedia support be
 
 It turns out that Linux is an excellent platform for programmers, both new and experienced. It's not that you need Linux to program. There are successful developers on all different kinds of platforms. However, Linux has much to offer developers. Here are a few things I've found useful.
 
+{{<blog-post-ad>}}
+
 # Why Programmers Love Linux
 
 Linux is built around automation. It's very intentional that staple applications on Linux can at the very least launch from a terminal with additional options, and often they can even be used entirely from the terminal. This idea is sometimes mistaken as a primitive computing model because people mistakenly believe that writing software that operates from a terminal is just doing the bare minimum to get a working application. This is an unfortunate misunderstanding of how code works, but it's something many of us are guilty of from time to time. We think more is always better, so an application containing 1,000 lines of code must be 100 times better than one with ten lines of code, right? The truth is that all things being equal, the application with greater flexibility is preferable, regardless of how that translates to lines of code.
@@ -61,3 +63,5 @@ On the other hand, the majority of hardware is supported directly by the Linux k
 If you look at the system requirements for Windows 7, you’ll find that it requires plenty of storage space and a decent amount of RAM to exist happily. Therefore, I think it’s safe to say you won’t get a very pleasant experience trying to run it on a machine that’s ten years old. On the Linux camp, however, you will find that even the latest software runs just fine on older hardware. In fact, typically the older the hardware, the better it will be supported.
 
 this article is combination of many article from the internet.
+
+{{<blog-post-ad>}}

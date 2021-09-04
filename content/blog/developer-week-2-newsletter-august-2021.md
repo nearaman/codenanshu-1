@@ -36,6 +36,8 @@ Unveiled August 10, Visual Studio 2022 Preview 3 also covers themes including pe
 
 learn more at [infoworld](https://www.infoworld.com/article/3629393/visual-studio-2022-preview-3-shines-on-javascript-typescript-github.html#tk.rss_javascript)
 
+{{<blog-post-ad>}}
+
 ## What I Find Interesting 😱
 
 after searching for many other this i find something that really Interesting & scary. here take a look at what i find.
@@ -65,3 +67,5 @@ who want their pages to load faster.
 From August 13, 2021, github is longer accept account passwords when authenticating Git operations. You need to add PAT (Personal Access Token) instead, you can follow the below method to add PFA on your system
 
 if you can face problem then visit [github blog](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/)
+
+{{<blog-post-ad>}}

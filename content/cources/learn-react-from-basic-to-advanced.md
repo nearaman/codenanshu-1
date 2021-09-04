@@ -34,3 +34,5 @@ i have som links that are very helpfull to learn react js
 🌟 [Mosh Hamedani's React Courses (Paid)](https://codewithmosh.com/p/mastering-react)  
 
 [#reactjs](https://hashnode.com/n/reactjs)
+
+{{<blog-post-ad>}}

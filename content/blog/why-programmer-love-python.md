@@ -40,3 +40,5 @@ when i was write a program in python then i have some problems related to this s
 
 ###  thousand's of Python Libraries and Frameworks
 if you want to write a program that do something amazing so you need to write code from scratch but i think python is really a programming language that provide thousand's of Python Libraries and Frameworks. it's awesome because there is huge community of programmers who write code in python and make python better than before ever 
+
+{{<blog-post-ad>}}

@@ -25,6 +25,8 @@ When you're called to take your order, you pause your conversation, go to the co
 
 So, you're waiting in line to place the order. But the wait is not noticeable as the line is moving very fast. The reason is the cashier is only taking the orders, but not instantly preparing the items. **(Wait for a program/functions/job to get placed in the system)**
 
+{{<blog-post-ad>}}
+
 When it's finally your turn, you process the menu in your head, place your order and pay. **(Program gives parameters and execution logic to the system)**
 
 Now you have to wait. But even when you're waiting, you've switched your attention to your gossiping. So, you're not totally idle and still doing something productive while waiting. **(Don't wait for the current task to complete and pick something else to work on)**
@@ -90,6 +92,7 @@ You saw from the story, for async programming you needed only 1 processor and a 
 
 The more precise answer is, "it depends". Using asynchronous programming where it should not be used would result in an extremely poor performing application. Let's jump into the technical details and everything will be clear as the blue sky.
 
+{{<blog-post-ad>}}
 
 ## Synchronous vs Asynchronous: Technical differences
 
@@ -141,5 +144,6 @@ There are many use cases. It ultimately boils down to I/O operation. But I'm sti
 
 - **Performance improvements:** Using asynchronous operations might drastically improve application performance, or at least, make it look like a better performer. Separating async and sync operations is a crucial task for best performance. For example, when you move folders in Google Drive, the folders are immediately moved from the UI side, making it seem faster. But the actual folder move operation (backend) is done asynchronously which would take slightly more time.
 
+{{<blog-post-ad>}}
 
 That's it for today. Feel free to leave any feedback or questions in the comments below.
