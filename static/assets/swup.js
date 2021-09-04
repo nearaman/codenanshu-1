@@ -8,17 +8,12 @@ swup.on("contentReplaced", init);
 
 function init() {
   if (document.querySelector("#googleArticleAd")) {
-    console.log("ad is placed");
-    let ad = document.getElementsByTagName('body')
-    var s = document.createElement("script");
-    s.setAttribute("async", "");
-    s.setAttribute(
-      "src",
-      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6691816550079346"
-    );
-    s.setAttribute("crossorigin", "anonymous");
-    s.onload = console.log("added");
-    ad[0].appendChild(s);
+    let ads = document.querySelectorAll('#googleArticleAd');
+    console.log('ads found')
+    for (var i = 0; i < ads.length; i++){
+      (adsbygoogle = window.adsbygoogle || []).push({});
+      console.log("ad is placed");
+    }
   }
 }
 
